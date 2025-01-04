@@ -14,3 +14,10 @@ This project was created to improve my skills in authentication and user managem
 - **Front-end:** HTML, CSS, JavaScript
 - **Back-end:** None (Purely front-end)
 - **Database:** [Specify database, ex: LocalStorage, IndexedDB]
+
+## Future Improvements
+- Implement token-based authentication (JWT) for added security.
+- Add password recovery functionality via email.
+- Create different user roles (e.g., admin vs. regular user).
+- Improve mobile responsiveness.
+- Add activity logging for user actions.
