@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://img.freepik.com/fotos-premium/um-carro-em-uma-concessionaria-com-um-carro-ao-fundo_192217-1612.jpg");  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.endereco-container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 15px;
+    border: 3px solid #424141;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 450px;
+    text-align: center;
+    opacity: 95%;   
+}
+
+.endereco-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 25px; /* Espaçamento abaixo de cada grupo de input */
+}
+
+.form-group input {
+        width: 90%;
+        padding: 10px;
+        border: 2px solid #555;
+        border-radius: 10px;
+        background-color: #333;
+        color: #fff;
+        text-align: left;
+    }
+
+.btn-submit {
+    width: 97%; /* Largura total */
+    padding: 10px; /* Espaçamento interno do botão */
+    background-color: #2ecc71; /* Cor de fundo do botão */
+    border: none; /* Remove borda do botão */
+    color: white; /* Cor do texto do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Efeito de transição ao mudar a cor de fundo */
+}
+
+.btn-submit:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}

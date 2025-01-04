@@ -1,0 +1,123 @@
+body {
+    background-color: #0c0b0b; /* Cor de fundo geral */
+    margin: 0;
+    font-family: 'Cinzel', serif;
+}
+
+header {
+    background-color: #000000; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto */
+    text-align: center;
+    border-top: 3px solid #daaa28; /* Bordas */
+    border-bottom: 3px solid #daaa28;
+    position: relative;
+    width: 100%;    
+}
+
+nav ul li {
+    display: inline-flex;
+    margin-right: 15px;    
+}
+
+nav ul li a {
+    color: #ffffff; /* Cor dos links */
+    text-decoration: none;
+}
+
+.carros {
+    color: #ffffff; /* Cor do texto da seção de carros */
+    padding: 20px;
+}
+
+.botao-catalogo {
+    background-color: #daaa28; /* Cor do botão do catálogo */
+    color: #ffffff; /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0e0d0d; /* Cor de fundo do rodapé */
+    color: #ffffff; /* Cor do texto */
+    padding: 10px;
+    text-align: center;
+}
+
+.botoes-juntos {
+    position: absolute;
+    top: 43px;
+    right: 25px;
+}
+
+.login-botao,
+.register-botao {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    cursor: pointer;
+    width: 170px;
+    height: 45px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold; /* Texto em negrito */
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Transições suaves */
+}
+
+/* Gradientes estilizados */
+.login-botao {
+    background: linear-gradient(135deg, #1d6f2f 0%, #4caf50 100%); /* Verde escuro para verde claro */
+    color: #ffffff; /* Cor do texto */
+    box-shadow: 0 6px 12px rgba(63, 168, 48, 0.5); /* Sombra verde */
+}
+
+.register-botao {
+    background: linear-gradient(135deg, #f39c12 0%, #f1c40f 100%); /* Laranja escuro para amarelo */
+    color: #ffffff; /* Cor do texto */
+    box-shadow: 0 6px 12px rgba(255, 193, 7, 0.5); /* Sombra amarela */
+}
+
+/* Efeitos de hover mais intensos */
+.login-botao:hover,
+.register-botao:hover {
+    transform: scale(1.05); /* Aumento ao passar o mouse */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5); /* Sombra ao passar o mouse */
+}
+
+/* Ativar a borda ao passar o mouse */
+.login-botao:hover {
+    border: 2px solid rgba(63, 168, 48, 0.7); /* Borda verde ao passar o mouse */
+}
+
+.register-botao:hover {
+    border: 2px solid rgba(255, 193, 7, 0.7); /* Borda amarela ao passar o mouse */
+}
+
+.login-botao:active,
+.register-botao:active {
+    transform: scale(0.95); /* Reduz ao clicar */
+}
+
+/* Estilo do botão "Exibir Mais" */
+#mostrar-mais {
+    background: linear-gradient(135deg, #ff9800 0%, #ffc107 100%); /* Gradiente laranja */
+    color: #ffffff; /* Cor do texto */
+    padding: 12px 24px; /* Padding maior para um botão mais robusto */
+    border: none;
+    border-radius: 25px; /* Bordas arredondadas */
+    cursor: pointer;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    box-shadow: 0 6px 12px rgba(255, 152, 0, 0.5); /* Sombra laranja */
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s; /* Transições suaves */
+}
+
+#mostrar-mais:hover {
+    transform: scale(1.05); /* Aumento ao passar o mouse */
+    box-shadow: 0 12px 20px rgba(255, 152, 0, 0.7); /* Sombra mais intensa ao passar o mouse */
+    background: linear-gradient(135deg, rgba(255, 152, 0, 0) 0%, rgba(255, 193, 7, 0) 100%); /* Efeito de saída das cores RGB */
+    color: #ff9800; /* Cor do texto muda para laranja ao passar o mouse */
+}
+
+#mostrar-mais:active {
+    transform: scale(0.95); /* Reduz ao clicar */
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Cadastre-se</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="cadastro.css">
+  <link rel="shortcut icon" href="https://img.icons8.com/?size=80&id=LJexfkz7o5UU&format=png" type="image/x-icon">
+  <script src='cadastro.js' defer></script>
+</head>
+<body>
+  <div class="degrade"></div>
+  <div class="login-box">
+    <h2>Faça Seu Cadastro</h2>
+    <form>
+      <label for="name">Nome Completo: </label>
+      <input type="text" name="name" id="name"/>
+
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email"/>
+
+      <label for="password" >Senha: </label>
+      <input type="password" name="password" id="password"/>
+
+      <label for="cpf_cnpj">CPF / CNPJ: </label>
+      <input type="text" name="cpf_cnpj" id="cpf_cnpj"/>
+
+      <label for="birthday">Data de nascimento</label>
+      <input type="date" name="birthday" id="birthday"/>
+
+      <label for="terms">Termos: </label>
+      <input type="checkbox" name="terms" id="terms"/>
+
+      <input type="button" value="Salvar" onclick="usuario()" />
+    </form>
+  </div>
+</body>
+</html>
