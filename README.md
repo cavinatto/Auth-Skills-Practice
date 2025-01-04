@@ -12,8 +12,8 @@ This project was created to improve my skills in authentication and user managem
 
 ## Technologies Used
 - **Front-end:** HTML, CSS, JavaScript
-- **Back-end:** None (Purely front-end)
-- **Database:** [Specify database, ex: LocalStorage, IndexedDB]
+- **Database:** LocalStorage, IndexedDB
+
 
 ## Future Improvements
 - Implement token-based authentication (JWT) for added security.
