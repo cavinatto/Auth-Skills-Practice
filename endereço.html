@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Endereço</title>
+    <link rel="stylesheet" href="endereço.css"> <!-- Link para o arquivo CSS externo -->
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=80&id=LJexfkz7o5UU&format=png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="endereco-container">
+        <h2>Cadastre seu Endereço 📍</h2>
+        <div class="form-group">
+            <input type="text" id="titulo" placeholder="Título" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="cep" placeholder="CEP" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="endereco" placeholder="Endereço" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="numero" placeholder="Número" required>
+        </div>
+        <div class="form-group">
+            <input type="text" id="complemento" placeholder="Complemento">
+        </div>
+        <button class="btn-submit" onclick="cadastrarEndereco()">Cadastrar Endereço</button>
+    </div>
+
+    <script src="endereço.js"></script> <!-- Link para o arquivo JS externo -->
+</body>
+</html>

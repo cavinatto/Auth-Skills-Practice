@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="principal.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=80&id=LJexfkz7o5UU&format=png" type="image/x-icon">
+</head>
+<body>
+    <!-- Fonte da Letra -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+        
+        body {
+            font-family: 'Cinzel', serif; 
+        }
+    </style>
+    
+    <!-- Nome da Loja e Navegação -->
+    <header>
+        <h1>Belmond Motors</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Catálogo de Veículos</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Veículos em Destaque -->
+    <section class="carros">
+        <h2>Veículos em Destaque</h2>
+        
+        <!-- Primeira linha de carros -->
+        <ul id="carros-1" style="display: flex; flex-wrap: wrap; gap: 20px;">
+            <li style="list-style: none;">
+                <h3>Ferrari LaFerrari 2022</h3>
+                <p>R$ 41.820.000,00</p>
+                <img src="https://s2.glbimg.com/2CK1xEw_2FlMfZS2k9SnbrdbwB0=/fit-in/940x590/e.glbimg.com/og/ed/f/original/2013/03/05/laferrari4.jpg" height="180" width="300" alt="Ferrari LaFerrari 2022">
+            </li>
+            <li style="list-style: none;">
+                <h3>Lamborghini Aventador 2022</h3>
+                <p>R$ 7.260.000,00</p>
+                <img src="https://cdn.motor1.com/images/mgl/4JyZA/s3/lamborghini-aventador-lp-780-4-ultimae.jpg" height="180" width="300" alt="Lamborghini Aventador Ultimae 2022">
+            </li>
+            <li style="list-style: none;">
+                <h3>Bugatti Mistral 2024</h3>
+                <p>R$ 23.040.000,00</p>
+                <img src="https://cdn.motor1.com/images/mgl/BXXw8A/s3/2024-bugatti-mistral.jpg" height="180" width="300" alt="Bugatti Mistral 2024">
+            </li>
+        </ul>
+
+        <!-- Segunda linha de carros -->
+        <ul id="carros-2" style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+            <li style="list-style: none;">
+                <h3>Porsche 911 GT3 RS 2023</h3>
+                <p>R$ 2.700.000,00</p>
+                <img src="https://www.motortrend.com/uploads/2022/10/2023-Porsche-911-GT3-RS-in-motion-3.jpg" height="180" width="300" alt="Porsche 911 GT3 RS 2023">
+            </li>
+            <li style="list-style: none;">
+                <h3>McLaren 720S 2022</h3>
+                <p>R$ 3.500.000,00</p>
+                <img src="https://www.mclarencf.com/imagetag/225/3/l/New-2022-McLaren-720S-Spider-Performance.jpg" height="180" width="300" alt="McLaren 720S 2022">
+            </li>
+            <li style="list-style: none;">
+                <h3>Koenigsegg Jesko 2023</h3>
+                <p>R$ 19.000.000,00</p>
+                <img src="https://www.ultimatecarpage.com/images/car/7885/Koenigsegg-Jesko-Absolut-164274.jpg" height="180" width="300" alt="Koenigsegg Jesko 2023">
+            </li>
+        </ul>
+
+        <!-- Terceira linha de carros (oculta inicialmente) -->
+        <ul id="carros-3" style="display: none; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+            <li style="list-style: none;">
+                <h3>Audi R8 V10 Performance 2023</h3>
+                <p>R$ 2.000.000,00</p>
+                <img src="https://hips.hearstapps.com/hmg-prod/images/2023-audi-r8-gt-front-three-quarters-motion-3-1664827965.jpg?crop=0.684xw:0.577xh;0.0321xw,0.281xh&resize=2048:*" height="180" width="300" alt="Audi R8 V10 Performance 2023">
+            </li>
+            <li style="list-style: none;">
+                <h3>Ferrari F8 Tributo 2023</h3>
+                <p>R$ 4.500.000,00</p>
+                <img src="https://www.motortrend.com/uploads/2023/03/2023-Ferrari-F8-Spider-front-quarter-view27.jpg" height="180" width="300" alt="Ferrari F8 Tributo 2023">
+            </li>
+            <li style="list-style: none;">
+                <h3>Porsche Taycan Turbo S 2023</h3>
+                <p>R$ 1.400.000,00</p>
+                <img src="https://vehicle-images.dealerinspire.com/4abe-11002795/WP0AC2Y17RSA52329/6e5a24fdd57bbfe628bbcfc80050ddb2.jpg" height="180" width="300" alt="Porsche Taycan Turbo S 2023">
+            </li>
+        </ul>
+
+        <!-- Quarta linha de carros (oculta inicialmente) -->
+        <ul id="carros-4" style="display: none; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+            <li style="list-style: none;">
+                <h3>Jaguar F-Type R 2023</h3>
+                <p>R$ 1.200.000,00</p>
+                <img src="https://www.motortrend.com/uploads/2022/04/2023-Jaguar-F-Type-R-Coupe_1-2.jpg" height="180" width="300" alt="Jaguar F-Type R 2023">
+            </li>
+            <li style="list-style: none;">
+                <h3>McLaren GT 2023</h3>
+                <p>R$ 2.600.000,00</p>
+                <img src="https://directimports.com.br/wp-content/uploads/2023/04/mclaren-gt-2023-3.webp" height="180" width="300" alt="McLaren GT 2023">
+            </li>
+            <li style="list-style: none;">
+                <h3>Chevrolet Corvette C8 2023</h3>
+                <p>R$ 700.000,00</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREgF1BtUskbCF6XuDTgz1VQg9W93ixB0YvyA&s" height="180" width="300" alt="Chevrolet Corvette C8 2023">
+            </li>
+        </ul>
+
+        <!-- Botão para exibir mais carros -->
+        <button id="mostrar-mais" style="margin-top: 20px;">Exibir Mais</button>
+    </section>
+    
+    <!-- botão ainda não funcional do catalogo -->
+    <section class="botao-catalogo">
+        <h2>Encontre seu carro perfeito</h2>
+        <p>Confira nossa lista de veículos disponíveis</p>
+        <button>Ver Catálogo</button>
+    </section>
+    
+    <!-- textinho de baixo -->
+    <footer>
+        <p>&copy; 2024 Absoluta Belmond</p>
+    </footer>
+    
+    <!-- Botões de login e registro -->
+    <div class="botoes-juntos">
+        <button class="login-botao" id="login-btn">Login</button>
+        <button class="register-botao" id="register-btn">Cadastro</button>
+    </div>
+    
+    <script src="principal.js"></script>
+</body>
+</html>

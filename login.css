@@ -1,0 +1,77 @@
+/* Personalização da fonte e da cor de fundo do site */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fHw%3D");  
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+/* Caixa de login */
+.login-container {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    opacity: 95%;   
+}
+
+/* Titulo da caixa de login */
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Grupo de form */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Personalização dos inputs */
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #555;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+}
+
+/* Botão de login */
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efeito hover no botão de login */
+.btn-login:hover {
+    background-color: #1abc9c;
+}
+
+.form-group {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
